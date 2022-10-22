@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせフォーム</title>
+  <link rel="stylesheet" href="style18.css">
+</head>
+<body>
+  
+  
+ <div class="container">
+  <h2>お問い合わせ 内容入力</h2>
+  <p class="explain">お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
+<!-- コンタクトフォーム -->
+  <div class="contact_container">
+    <form action="y_seta@bronco.jp" name="FirstForm" method="method">
+      
+      <!-- お名前 -->
+      <div class="form-item A">
+        <label for="username">
+          お名前<br><span class="form-item-label-required">必須</span>
+        </label>
+        <input id="username" type="text" placeholder="例）山田太郎">
+      </div>
+
+      <!-- ふりがな -->
+      <div class="form-item B">
+        <label for="furigana">
+          ふりがな<br><span class="form-item-label-required">必須</span>
+        </label>
+        <input id="furigana" type="text" placeholder="例）やまだたろう">
+      </div>
+
+        <!-- メールアドレス -->
+      <div class="form-item C">
+        <label for="mail">
+          メールアドレス<br><span class="form-item-label-required">必須</span>
+        </label>
+        <input id="mail" type="email" placeholder="例 guest@example.com">
+      </div>
+
+        <!-- 電話番号 -->
+      <div class="form-item D">
+        <label for="telphone">
+          電話番号<br><span class="form-item-label-required">必須</span>
+        </label>
+        <input id="telphone" type="tel" placeholder="例 090-1234-5678">
+      </div>
+
+
+        <!-- 生年月日 -->
+      <div class="form-item E">
+        <label for="birthday">
+          生年月日<br><span class="form-item-label-required">必須</span>
+        </label>
+        <input id="birthday" type="date">
+      </div>
+
+
+        <!-- 性別 -->
+      <div class="form-item F">
+        <label for="sex">
+          性別<br><span class="form-item-label-required">必須</span>
+        </label>
+        <input id="sex" type="radio" name="gender" value="男" checked>男性
+        <input id="sex" type="radio" name="gender" value="女">女性
+      </div>
+
+        
+        <!-- お問い合わせ項目 -->
+      <div class="form-item">
+        <label for="contactListing">
+          お問い合わせ項目<br><span class="form-item-label-required">必須</span>
+        </label>
+        <select id="contactListing" placeholder="選択してください">
+          <option hidden>選択してください</option>
+          <option value="A">ご依頼</option>
+          <option value="b">質問</option>
+          <option value="c">その他</option>
+        </select>
+      </div>
+
+        
+        <!-- お問い合わせ内容 -->
+      <div class="form-item">
+        <label for="message">
+          お問い合わせ内容<br><span class="form-item-label-required">必須</span>
+        </label>
+        <textarea id="message" type="text" placeholder="お問い合わせ内容を入力"></textarea>
+        
+      </div>
+    </form>
+  </div>
+
+  <div class="submit">
+    <button type="submit">確認画面へ</button>
+  </div>
+  
+</div>
+  
+
+  </form>
+</body>
+</html>

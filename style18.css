@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+/* リセット/ノーマライズ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+select,
+textarea,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  background-color: white;
+  width: 720px;
+  margin: 100px auto;
+  padding: 40px;
+  box-shadow: 0 10px 15px 0 rgba(103, 102, 102, 0.5);
+}
+
+.explain {
+  padding: 10px 0;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: flex-start;
+  /* width: 500px; */
+  background-color: rgb(240, 237, 237);
+  padding: 30px 60px;
+  margin-top: 20px;
+}
+
+
+.form-item {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+}
+
+
+input, select, textarea  {
+display: block;
+width: 100%;
+border: 1px solid rgb(170, 170, 170);
+border-radius: 4px;
+padding: 0 10px;
+font-family: 'Hiragino Kaku Gothic ProN';
+color: brown;
+}
+
+
+input .sex {
+  display: block;
+}
+
+label {
+  width: 100%;
+  /* display: block; */
+  text-align: right;
+  margin-right: 40px;
+  line-height: 18px;
+}
+
+.form-item-label-required {
+  padding-top: -5px;
+  font-size: 10px;
+  background-color: red;
+  padding: 4px 6px;
+  color: white;
+  border-radius: 4px;
+}
+
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(4, 155, 215);
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+style
+input[type=radio] {
+  display: none;
+}
+
+input .sex {
+  display: block;
+}
+
+
